@@ -1,0 +1,6 @@
+# example coverage configuration
+# https://coverage.readthedocs.io/en/coverage-5.0.4/config.html#configuration-reference
+#[report]
+#include=[your package]
+#exclude=[exclude files]
+#fail_under=80
