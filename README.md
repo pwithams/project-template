@@ -12,7 +12,7 @@ To use:
  - you can also run the docker commands manually by inspecting the contents of `Makefile`
 
 
-*README template below*
+The following is a README template.
 
 
 # Project name
