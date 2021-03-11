@@ -5,7 +5,10 @@ RUN apt-get install python3-pip -y
 
 RUN pip3 install jupyter
 
-COPY scripts/entrypoint.sh .
+COPY scripts/entrypoint.sh 
+
+# remove any CRLF line endings if running from Windows
+RUN sed -i entrypoint.sh 's/\r$//'
 
 COPY requirements.txt .
 
