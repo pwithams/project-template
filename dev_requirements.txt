@@ -3,3 +3,4 @@ mypy
 pylint
 pycodestyle
 coverage
+jupyter
